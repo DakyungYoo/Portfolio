@@ -80,7 +80,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #353535;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -128,6 +128,20 @@ h1, h2, h3, h4, h5, h6, figure {
 .work_text div a{
   font-family: 'Montserrat Alternates', sans-serif;
 }
+
+.progress-wrap h3{
+  color: #6b6b6b;
+  font-size: 18px;
+}
+
+.row-pb-md div div{
+  color: #ffbf28;
+}
+
+.timeline-panel{
+  transition: all 0.5s;
+}
+
 
 #fh5co-header,
 .fh5co-cover {
@@ -460,7 +474,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color: #383838;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -577,7 +591,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #c4e62d;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -627,6 +641,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .company {
@@ -634,7 +649,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: #888888;
 }
 
 .timeline-body > p,
@@ -687,7 +702,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
 }
 .progress-wrap h3 {
-  font-size: 16px;
   display: block;
   margin-bottom: 10px;
   float: left;
@@ -708,25 +722,25 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .progress-bar {
-  background-color: #2F3C4F;
+  background-color: #c4e62d;
   height: 5px;
   display: block;
   box-shadow: none;
 }
 .progress-bar.progress-bar-1 {
-  background-color: #2980b9 !important;
+  background-color: #c4e62d !important;
 }
 .progress-bar.progress-bar-2 {
-  background-color: #c0392b !important;
+  background-color: #c4e62d !important;
 }
 .progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
+  background-color: #c4e62d !important;
 }
 .progress-bar.progress-bar-4 {
-  background-color: #8e44ad !important;
+  background-color: #c4e62d !important;
 }
 .progress-bar.progress-bar-5 {
-  background-color: #27ae60 !important;
+  background-color: #c4e62d !important;
 }
 
 .chart {
@@ -931,7 +945,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: right;
 }
 .fh5co-blog .blog-text .stuff li:last-child a {
-  color: #000;
+  color: #181818;
 }
 .fh5co-blog .blog-text .stuff li:last-child i {
   padding-right: 0;
@@ -1040,7 +1054,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
-  color: #000;
+  color: #181818;
 }
 .contact-info li i {
   position: absolute;
@@ -1050,7 +1064,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .contact-info li a {
-  color: #000;
+  color: #181818;
 }
 
 .form-control {
@@ -1367,4 +1381,7 @@ padding-top:30px;}
 	height:auto;
 	margin-bottom:30px;}
 .work_text{height:auto;}
+.row .sub{
+  margin-right: 0px;
+}
 }
