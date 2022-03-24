@@ -142,6 +142,17 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: all 0.5s;
 }
 
+#fh5co-header{
+  width: 100%;
+}
+
+#main_banner img{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding:200px 50px 200px 50px;
+}
+
 
 #fh5co-header,
 .fh5co-cover {
@@ -1384,4 +1395,16 @@ padding-top:30px;}
 .row .sub{
   margin-right: 0px;
 }
+}
+
+@media (max-width: 991px){
+  #main_banner img{
+    padding:100px 50px 100px 50px;
+  }
+}
+
+@media (max-width: 692px){
+  #main_banner img{
+    padding:40px 30px 40px 30px;
+  }
 }
